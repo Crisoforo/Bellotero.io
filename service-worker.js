@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Bellotero.io/precache-manifest.b3c810afd91c18e3ca9926cc398555ed.js"
+  "/Bellotero.io/precache-manifest.45bfac879f4c652b5f399dd9842dc047.js"
 );
 
 self.addEventListener('message', (event) => {
