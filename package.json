@@ -1,10 +1,10 @@
 {
   "name": "bellotero.io",
-  "homepage" : "http://crisoforo.github.io/bellotero.io",
+  "homepage": "http://crisoforo.github.io/Bellotero.io",
   "description": "React and bellotero.io project",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build"
   },

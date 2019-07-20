@@ -11,7 +11,8 @@ function App() {
     <div className="container-fluid">
       <Header />
       <Switch>
-        <Route exact path="/page-1" component={Testimonials} />
+        <Route exact path="/" component={Testimonials} />
+        <Route path="/page-1" component={Testimonials} />
         <Route path="/page-2" component={Configurator} />
         <Route component={PageNotFound} />
       </Switch>
