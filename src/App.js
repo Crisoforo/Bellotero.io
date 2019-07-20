@@ -12,7 +12,6 @@ function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={Testimonials} />
-        <Route path="/page-1" component={Testimonials} />
         <Route path="/page-2" component={Configurator} />
         <Route component={PageNotFound} />
       </Switch>
